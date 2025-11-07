@@ -2,19 +2,23 @@
   <a href="https://openreview.net/forum?id=rKASv92Myl">
       <img src="assets/EVODiff_logo.png" width="350px" alt="EVODiff Logo">
   </a>
-  
-  <h1>✨ EVODiff: Entropy-aware Variance Optimized Diffusion Inference </h1>
-  
+   
+  <h1>✨ EVODiff: Entropy-aware Variance Optimized Diffusion Inference</h1>
+   
   <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/115792"> 
     <img src="assets/NeurIPS-logo.svg" width="200" alt="NeurIPS 2025">
   </a>
 
-  <h1>
+  <h2>
     <a href="https://openreview.net/forum?id=rKASv92Myl">
       <strong>NeurIPS 2025 </strong> 
     </a> 🔥🔥🔥🔥
-  </h1>
+  </h2>
 
+  <p><em>A novel entropy-aware inference framework that enhances the denoising generation capabilities of diffusion models</em></p>
+
+  <p>If you find this work useful, please give us a star 🌟.</p>
+  
   <p>
     <a href="https://openreview.net/pdf?id=rKASv92Myl">Paper</a> • 
     <a href="https://openreview.net/forum?id=rKASv92Myl">OpenReview</a> • 
@@ -22,7 +26,29 @@
     <a href="#-quick-start">Quick Start</a> • 
     <a href="#-citation">Citation</a>
   </p>
+
+  <p>
+    <a href="https://scholar.google.com/citations?user=Fm039ikAAAAJ&hl=en">Shigui Li</a><sup>1</sup>,
+    <a href="https://scholar.google.com/citations?user=r5fgeWQAAAAJ&hl=en&oi=sra">Wei Chen</a><sup>1</sup>,
+    <a href="https://scholar.google.com/citations?user=08RCdoIAAAAJ&hl=en">Delu Zeng</a><sup>2✉️</sup>
+  </p>
+
+ 
+  
+  <p>
+    <img src="assets/scut.png" height="35px" style="vertical-align: middle;">
+    <sup>1</sup>
+    <img src="assets/scut_math.png" height="35px" style="vertical-align: middle; margin-right: 15px;">
+    <sup>2</sup>
+    <img src="assets/scut_ee.jpg" height="35px" style="vertical-align: middle; margin-right: 15px;">
+  </p>
+
+ 
+  <div>Corresponding to <a href="mailto:dlzeng@scut.edu.cn">dlzeng@scut.edu.cn</a>
+  </div> 
+
 </div>
+
 
 ---
 
