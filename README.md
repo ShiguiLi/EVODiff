@@ -16,6 +16,7 @@
   </h1>
 
   <p>
+    <a href="https://openreview.net/pdf?id=rKASv92Myl">Paper</a> • 
     <a href="https://openreview.net/forum?id=rKASv92Myl">OpenReview</a> • 
     <a href="https://arxiv.org/abs/2509.26096">arXiv</a> • 
     <a href="#-quick-start">Quick Start</a> • 
