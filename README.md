@@ -50,7 +50,7 @@ EVODiff stands out by being the first entropy-aware diffusion model inference fr
 
 ## 🔥 News
 
-* **[2025.xx.xx]** 🎉 EVODiff has been accepted by **NeurIPS 2025**!
+* **[2025.9.19]** 🎉 EVODiff has been accepted by **NeurIPS 2025**!
 * **[Coming Soon]** 🚀 The official implementation code will be released soon!
 
 ## 🖼️ Better Generation Quality with Better Understanding
