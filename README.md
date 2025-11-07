@@ -1,5 +1,5 @@
 <div align="center">
-  <a href="https://openreview.net/pdf?id=rKASv92Myl">
+  <a href="https://openreview.net/forum?id=rKASv92Myl">
       <img src="assets/EVODiff_logo.png" width="350px" alt="EVODiff Logo">
   </a>
   
