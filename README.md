@@ -54,7 +54,7 @@
 
 ## 🔭 Overview
 
-**EVODiff** is an efficient diffusion model inference framework grounded in entropy-aware information flow. It systematically improves image quality and accelerates generation by optimizing conditional variance at each step, all without relying on reference trajectories.
+**EVODiff** is an efficient diffusion model inference framework grounded in entropy-aware information flow optimization. It systematically improves image quality and accelerates generation by optimizing conditional variance at each step, all without relying on reference trajectories.
 
 We reveal that successful denoising generation of diffusion models fundamentally operates by reducing conditional entropy during reverse transitions, grounded in information-theoretic principles.
 
