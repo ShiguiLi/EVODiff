@@ -44,8 +44,7 @@
   </p>
 
  
-  <div>Corresponding to <a href="mailto:dlzeng@scut.edu.cn">dlzeng@scut.edu.cn</a>
-  </div> 
+
 
 </div>
 
