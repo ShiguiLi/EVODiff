@@ -85,7 +85,7 @@ EVODiff significantly improves generation quality, especially at low number of f
 
 <div align="center">
     <img src="assets/better_generation_with_evodiff's_better_understanding.png" width="900px" alt="Qualitative Results">
-    <p><em>Qualitative comparisons on text-to-image generation. EVODiff leverages entropy-aware information flow to reduce artifacts and enhance fidelity compared to SOTA solvers.</em></p>
+    <p><em>Qualitative comparisons on text-to-image generation using the simple prompt  <strong>"Giant caterpillar riding a bicycle"</strong>. EVODiff leverages entropy-aware information flow to reduce artifacts and enhance fidelity compared to SOTA solvers.</em></p>
 </div>
 
 ## 📈 Efficient Generation
