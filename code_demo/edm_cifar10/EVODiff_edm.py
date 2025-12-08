@@ -7,7 +7,7 @@ import numpy as np
 
 class EVODiff:
     """
-    EVODiff: Entropy-aware variance optimization for diffusion model inference 
+    EVODiff: Entropy-aware variance optimized diffusion inference
     """
     
     def __init__(
