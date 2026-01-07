@@ -64,7 +64,7 @@ We reveal that successful denoising generation of diffusion models fundamentally
 
 ## 💡 Key Features
 
-EVODiff stands out by being the first entropy-aware diffusion model inference framework for better generation optimizing the denoising information flow of diffusion models.  
+EVODiff stands out by being the first entropy-aware diffusion model inference framework for better generation by optimizing the denoising information flow of diffusion models.  
 * 🛡️ **Significant Theoretical Contribution**: Provides the **first rigorous mathematical proof** that data-prediction parameterization is superior to noise-prediction for diffusion model inference, theoretically grounding previous empirical findings. 🔥 
 * 📉 **Entropy-aware Denoising**:  Directly optimizes reconstruction error by systematically leveraging entropy-aware information flow and variance reduction.
 * 🚀 **Reference-free via On-the-fly Optimization**: Achieves superior performance without relying on reference trajectories or costly optimization procedures (unlike methods that require optimization or distillation from $\tilde{x}_0$).
@@ -97,17 +97,27 @@ Extensive experiments demonstrate that EVODiff consistently outperforms SOTA gra
     <p><em>Quantitative comparisons demonstrating EVODiff's consistent superior performance (lower FID) across diverse datasets (CIFAR-10 shown here) and varying NFEs.</em></p>
 </div>
 
-## 🚀 Quick Start
+## 🚀 Quick Start 
 
-🔜 (To be updated when code is released. You can put placeholders here)
-
+### Installation
 ```bash
 # Clone the repository
-git clone [https://github.com/ShiguiLi/EVODiff.git](https://github.com/ShiguiLi/EVODiff.git)
+git clone  https://github.com/ShiguiLi/EVODiff.git
 cd EVODiff
-
 # Install dependencies
 pip install -r requirements.txt
+```
+### Usage
+To use EVODiff, simply initialize the `EVODiff_edm` class and wrap the sampling process.
+```bash 
+python sample.py \
+  --ckp_path="path/to/checkpoint.pkl" \
+  --sample_folder="my_output_folder" \
+  --method="evodiff" \
+  --steps=18 \
+  --order=2 \
+  --skip_type="logSNR" \
+  --denoise_to_zero
 ```
 
 ## 📝 Citation 
