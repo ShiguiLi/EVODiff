@@ -114,7 +114,7 @@ python sample.py \
   --ckp_path="path/to/checkpoint.pkl" \
   --sample_folder="my_output_folder" \
   --method="evodiff" \
-  --steps=18 \
+  --steps=10 \
   --order=2 \
   --skip_type="logSNR" \
   --denoise_to_zero
